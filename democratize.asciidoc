@@ -1,0 +1,27 @@
+I am not a data scientist. Nor am I a programmer. I've got an inclination toward technology, but my core skill set very much resides in the humanities domain.
+
+I offer this biographical sketch up front because I think I have a lot in common with the people who work around and near tech spaces: academics, business users, entertainment professionals, editors, writers, producers, etc. The interesting thing about data science -- and the reason why I'm glad Mike Loukides wrote "http://radar.oreilly.com/2010/06/what-is-data-science.html[What is data science?]" -- is that vast stores of data have relevance to all sorts of folks, including people like me who lack a pure technical pedigree.
+
+Data science's democratizing moment will come when its associated tools can be picked up by tech-savvy non-programmers. I'm thinking of the HTML coders and the Excel power users: the people who aren't full-fledged mechanics, but they're skilled enough to pop the hood and change their own oil.
+
+I'm encouraged because that democratizing moment is close. I saw a http://www.datameer.com/[demo] recently that connects a web-based spreadsheet with huge data stores and cloud infrastructure. This type of system -- and I'm sure there are many others in the pipeline -- takes a process that once had immense technical and financial barriers and makes it almost as easy as http://www.phpmyadmin.net/home_page/index.php[phpMyAdmin]. That's an important step. Within a year or two, I expect to see further usability improvements in these tools. A data science dashboard that mimics http://analytics.google.com/[Google Analytics] can't be far off.
+
+During that demo, Datameer CTO http://www.datameer.com/about/management.html[Stefan Groschupf] told me about a fun Twitter inquiry he instigated. Groschupf had previously gathered around 45 million tweets and fed them into http://aws.amazon.com/ec2/[EC2]. Later, over the course of a two-beer evening, Groschupf poked at that data to see if any interesting patterns turned up when comparing two vastly different hashtags (http://twitter.com/#search?q=%23justinbieber[#justinbieber] vs. http://twitter.com/#search?q=%23teaparty[#teaparty]). He used his company's system to parse the data, then he fed results through a free visualization tool.
+
+Here's the #justinbieber cluster:
+
+image:attachments/justinbieber-graph.png[scaledwidth=90%]
+
+And here's the #teaparty cluster:
+
+image:attachments/teaparty-graph.png[scaledwidth=90%]
+
+
+As you can see, the #teaparty folks are far more connected then their distant #justinbieber cousins. That's interesting, but not really surprising. The political world has more connective tissue than of-the-moment entertainment.
+
+But that specific conclusion isn't what's important here. Even if your end-point is inevitable, a data-driven conversation has more power and resonance than an anecdotal observation. Groschupf didn't tell me the Tea Party movement is more connected. He showed me.
+
+Significant implications emerge when you can bounce a question, even an innocuous one, against a huge storehouse of data. If someone like me can plug questions into a system and have it do the same kind of processing once reserved for a skilled minority, that will inspire me to ask a lot more questions. It'll inspire a lot of other people to ask questions, too. And some of those questions might even be important.
+
+That's a big deal. Myself and others may never become full-fledged data scientists, but having access to easy-to-use data tools will get people thinking and exploring in all sorts of domains.
+

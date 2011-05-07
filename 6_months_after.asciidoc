@@ -1,0 +1,29 @@
+Mike Loukides examined the question "http://radar.oreilly.com/2010/06/what-is-data-science.html[What is data science?]" here on Radar six months ago.
+
+That post kicked off http://radar.oreilly.com/2010/06/what-is-data-science.html#comments[considerable] http://twitter.com/search?q=http%3A%2F%2Fradar.oreilly.com%2F2010%2F06%2Fwhat-is-data-science.html[conversation]. It also marked the beginning of our ongoing effort to track the companies, ideas, people and products shaping the data space.
+
+The six-month point is a good time to check in: it's short enough to still feel that initial enthusiasm and long enough to sense deeper trends. With that in mind, below you'll find a handful of interviews and analysis posts that expand on the topics Mike surfaced in his report.
+
+The stories fall into three broad categories: data science skills and technologies, broader applications of data science, and data products.
+
+We'll continue to explore the data science space in the lead-up to February's http://strataconf.com/?cmp=il-radar-st11-strata-6-month[Strata Conference] -- see below for more information on that -- and through additional coverage on http://radar.oreilly.com/data/[Radar] and http://answers.oreilly.com/[O'Reilly Answers]. (Be sure to also check out the excellent "Strata Week" roundups from http://blogs.oreilly.com/cgi-bin/mt/mt-search.cgi?blog_id=57&tag=strataweek&limit=20&IncludeBlogs=57[Edd Dumbill and Julie Steele].)
+
+=== Data science skills and technologies
+
+http://radar.oreilly.com/2010/06/what-is-data-science.html[What is data science?] -- The future belongs to the companies who figure out how to collect and use data successfully. In this in-depth piece, O'Reilly editor Mike Loukides examines the unique skills and opportunities that flow from data science. (Related: http://answers.oreilly.com/topic/1571-a-data-science-cheat-sheet/[A data science cheat sheet])
+
+http://radar.oreilly.com/2010/09/the-smaq-stack-for-big-data.html[The SMAQ stack for big data] -- We're at the beginning of a revolution in data-driven products and services, driven by a software stack that enables big data processing on commodity hardware. Learn about the SMAQ stack, and where today's big data tools fit in.
+
+http://radar.oreilly.com/2010/11/the-data-analysis-path-curiosi.html[The data analysis path is built on curiosity, followed by action] -- Precision and preparation define traditional data analysis, but author Philipp K. Janert believes there's more to it than just that. In this interview, he explains how simplicity, experimentation and action can shape data work.
+
+=== Broader application of data science
+
+http://radar.oreilly.com/2010/07/data-as-a-service.html[Data as a service] -- "With "data as a service" APIs like InfoChimps, and embeddable data components like Google Public Data Explorer and WolframAlpha Widgets, we're seeing the democratization of data and data visualization: new ways to access data, new ways to play with data, and new ways to communicate the results to others.
+
+http://radar.oreilly.com/2010/07/data-science-democratized.html[Data science democratized] -- Data science has utility -- and repercussions -- well beyond data scientists. New tools are making it easier for non-programmers to tap huge stores of information. Data science's democratizing moment will come when its associated tools can be picked up by tech-savvy non-programmers.
+
+=== Data products
+
+http://radar.oreilly.com/2010/09/a-new-twist-on-data-driven-sit.html[A new twist on "data-driven site"] -- TripAdvisor is using data from its Facebook application to expand its website. In this Q&A, Sanjay Vakil discusses the inner-workings of this app-website relationship and he passes on advice for companies pursuing their own data-driven products.
+
+http://radar.oreilly.com/2010/11/better-mobile-healthcare-decis.html[Open health data: Spurring better decisions and new businesses] -- The iTriage app marries open government data with private information. Peter Hudson, one of the co-founders of the company behind the app, discusses the business and patient opportunities government health data creates.
