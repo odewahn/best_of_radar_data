@@ -8,7 +8,4 @@
 
 [[democratize]]
 
-== Big data: Global good or zero-sum arms race?
-
-[[zero_sum]]
 
