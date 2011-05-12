@@ -10,7 +10,7 @@ One of the earlier data products on the Web was the http://en.wikipedia.org/wiki
 
 Google is a master at creating data products. Here's a few examples:
 
-* Google's breakthrough was realizing that a search engine could use input other than the text on the page. Google's http://en.wikipedia.org/wiki/PageRank[PageRank] algorithm was among the first to use data outside of the page itself, in particular, the number of links pointing to a page. Tracking links made Google searches much more useful, and PageRank has been a key ingredient to the company's success.
+* Google's breakthrough was realizing that a search engine could use input other than the text on the page. Google's http://en.wikipedia.org/wiki/PageRank[PageRank] algorithm was among the first to use data outside of the page itself, in particular, the number of links pointing to a page. Tracking links made Google searches much more useful, and PageRank has been a key ingredient to the company's success. 
 
 * Spell checking isn't a terribly difficult problem, but by suggesting corrections to misspelled searches, and observing what the user clicks in response, Google made it much more accurate. They've built a dictionary of common misspellings, their corrections, and the contexts in which they occur.
 
