@@ -4,3 +4,52 @@ To meet the challenge of processing such large data sets, Google created MapRedu
 
 As MapReduce has grown in popularity, a stack for big data systems has emerged, comprising layers of Storage, MapReduce and Query (SMAQ). SMAQ systems are typically open source, distributed, and run on commodity hardware.
 
+image:attachments/Query.png[scaledwidth=90%]
+
+In the same way the commodity http://en.wikipedia.org/wiki/LAMP_(software_bundle)[LAMP] stack of Linux, Apache, MySQL and PHP changed the landscape of web applications, SMAQ systems are bringing commodity big data processing to a broad audience. SMAQ systems underpin http://strataconf.com/strata-may2011[a new era of innovative data-driven products and services], in the same way that LAMP was a critical enabler for http://oreilly.com/web2/archive/what-is-web-20.html[Web 2.0].
+
+Though dominated by Hadoop-based architectures, SMAQ encompasses a variety of systems, including leading NoSQL databases. This paper describes the SMAQ stack and where today's big data tools fit into the picture.
+
+=== MapReduce
+
+http://labs.google.com/papers/mapreduce.html[Created at Google] in response to the problem of creating web search indexes, the MapReduce framework is the powerhouse behind most of today's big data processing. The key innovation of MapReduce is the ability to take a query over a data set, divide it, and run it in parallel over many nodes. This distribution solves the issue of data too large to fit onto a single machine.
+
+image:attachments/key_features.png[scaledwidth=90%]
+
+To understand how MapReduce works, look at the two phases suggested by its name. In the map phase, input data is processed, item by item, and transformed into an intermediate data set. In the reduce phase, these intermediate results are reduced to a summarized data set, which is the desired end result.
+
+image:attachments/map_reduce.png[scaledwidth=90%]
+
+A http://en.wikipedia.org/wiki/MapReduce#Example[simple example] of MapReduce is the task of counting the number of unique words in a document. In the map phase, each word is identified and given the count of 1. In the reduce phase, the counts are added together for each word.
+
+If that seems like an obscure way of doing a simple task, that's because it is. In order for MapReduce to do its job, the map and reduce phases must obey certain constraints that allow the work to be parallelized. Translating queries into one or more MapReduce steps is not an intuitive process. Higher-level abstractions have been developed to ease this, discussed under Query below.
+
+An important way in which MapReduce-based systems differ from conventional databases is that they process data in a batch-oriented fashion. Work must be queued for execution, and may take minutes or hours to process.
+
+Using MapReduce to solve problems entails three distinct operations:
+
+* Loading the data -- This operation is more properly called Extract, Transform, Load (ETL) in data warehousing terminology. Data must be extracted from its source, structured to make it ready for processing, and loaded into the storage layer for MapReduce to operate on it.
+
+* MapReduce -- This phase will retrieve data from storage, process it, and return the results to the storage.
+
+* Extracting the result -- Once processing is complete, for the result to be useful to humans, it must be retrieved from the storage and presented.
+
+Many SMAQ systems have features designed to simplify the operation of each of these stages.
+
+=== Hadoop MapReduce
+
+Hadoop is the dominant open source MapReduce implementation. Funded by Yahoo, it emerged in 2006 and, according to its creator Doug Cutting, reached “web scale” capability in early 2008.
+
+The Hadoop project is now hosted by Apache. It has grown into a large endeavor, with http://hadoop.apache.org/#What+Is+Hadoop%3F[multiple subprojects] that together comprise a full SMAQ stack.
+
+Since it is implemented in Java, Hadoop's http://hadoop.apache.org/mapreduce/docs/current/[MapReduce implementation] is accessible from the Java programming language. Creating MapReduce jobs involves writing functions to encapsulate the map and reduce stages of the computation. The data to be processed must be loaded into the Hadoop Distributed Filesystem.
+
+Taking the word-count example from above, a suitable map function might look like the following (taken from the Hadoop MapReduce documentation, the key operations shown in bold).
+
+
+
+
+
+
+
+
