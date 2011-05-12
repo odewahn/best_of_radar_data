@@ -12,3 +12,7 @@
 
 [[data_science]]
 
+== The SMAQ stack for big data
+
+[[SMAQ_stack]]
+
