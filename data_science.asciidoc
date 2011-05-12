@@ -11,9 +11,6 @@ One of the earlier data products on the Web was the http://en.wikipedia.org/wiki
 Google is a master at creating data products. Here's a few examples:
 
 * Google's breakthrough was realizing that a search engine could use input other than the text on the page. Google's http://en.wikipedia.org/wiki/PageRank[PageRank] algorithm was among the first to use data outside of the page itself, in particular, the number of links pointing to a page. Tracking links made Google searches much more useful, and PageRank has been a key ingredient to the company's success. 
-
 * Spell checking isn't a terribly difficult problem, but by suggesting corrections to misspelled searches, and observing what the user clicks in response, Google made it much more accurate. They've built a dictionary of common misspellings, their corrections, and the contexts in which they occur.
-
 * Speech recognition has always been a hard problem, and it remains difficult. But Google has made huge strides by using the voice data they've collected, and has been able to http://gdgt.com/discuss/voice-recognition-is-amazing-ive-only-68e/[integrate voice search] into their core search engine. 
-
 * During the Swine Flu epidemic of 2009, Google was able to track the progress of the epidemic http://www.google.org/flutrends/about/how.html[by following searches for flu-related topics].
