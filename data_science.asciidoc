@@ -1,0 +1,19 @@
+We've all heard it: according to Hal Varian, http://www.nytimes.com/2009/08/06/technology/06stats.html[statistics is the next sexy job]. Five years ago, in http://oreilly.com/web2/archive/what-is-web-20.html[What is Web 2.0], Tim O'Reilly said that "data is the next Intel Inside." But what does that statement mean? Why do we suddenly care about statistics and about data?
+
+In this post, I examine the many sides of data science -- the technologies, the companies and the unique skill sets.
+
+=== What is data science?
+
+The web is full of "data-driven apps." Almost any e-commerce application is a data-driven application. There's a database behind a web front end, and middleware that talks to a number of other databases and data services (credit card processing companies, banks, and so on). But merely using data isn't really what we mean by "data science." A data application acquires its value from the data itself, and creates more data as a result. It's not just an application with data; it's a data product. Data science enables the creation of data products.
+
+One of the earlier data products on the Web was the http://en.wikipedia.org/wiki/CDDB[CDDB database]. The developers of CDDB realized that any CD had a unique signature, based on the exact length (in samples) of each track on the CD. Gracenote built a database of track lengths, and coupled it to a database of album metadata (track titles, artists, album titles). If you've ever used iTunes to rip a CD, you've taken advantage of this database. Before it does anything else, iTunes reads the length of every track, sends it to CDDB, and gets back the track titles. If you have a CD that's not in the database (including a CD you've made yourself), you can create an entry for an unknown album. While this sounds simple enough, it's revolutionary: CDDB views music as data, not as audio, and creates new value in doing so. Their business is fundamentally different from selling music, sharing music, or analyzing musical tastes (though these can also be "data products"). CDDB arises entirely from viewing a musical problem as a data problem.
+
+Google is a master at creating data products. Here's a few examples:
+
+*Google's breakthrough was realizing that a search engine could use input other than the text on the page. Google's http://en.wikipedia.org/wiki/PageRank[PageRank] algorithm was among the first to use data outside of the page itself, in particular, the number of links pointing to a page. Tracking links made Google searches much more useful, and PageRank has been a key ingredient to the company's success.
+
+*Spell checking isn't a terribly difficult problem, but by suggesting corrections to misspelled searches, and observing what the user clicks in response, Google made it much more accurate. They've built a dictionary of common misspellings, their corrections, and the contexts in which they occur.
+
+*Speech recognition has always been a hard problem, and it remains difficult. But Google has made huge strides by using the voice data they've collected, and has been able to http://gdgt.com/discuss/voice-recognition-is-amazing-ive-only-68e/[integrate voice search] into their core search engine. 
+
+*During the Swine Flu epidemic of 2009, Google was able to track the progress of the epidemic http://www.google.org/flutrends/about/how.html[by following searches for flu-related topics].
