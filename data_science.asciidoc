@@ -97,9 +97,7 @@ Nathan Yau's http://flowingdata.com/[FlowingData] blog is a great place to look 
 
 Data science requires skills ranging from traditional computer science to mathematics to art. Describing the data science group he put together at Facebook (possibly the first data science group at a consumer-oriented web property), Jeff Hammerbacher said:
 
-----
-... on any given day, a team member could author a multistage processing pipeline in Python, design a hypothesis test, perform a regression analysis over data samples with R, design and implement an algorithm for some data-intensive product or service in Hadoop, or communicate the results of our analyses to other members of the organization ^3^
-----
+"... on any given day, a team member could author a multistage processing pipeline in Python, design a hypothesis test, perform a regression analysis over data samples with R, design and implement an algorithm for some data-intensive product or service in Hadoop, or communicate the results of our analyses to other members of the organization ^3^"
 
 Where do you find the people this versatile? According to DJ Patil, chief scientist at http://www.linkedin.com/[LinkedIn] (http://twitter.com/#!/dpatil[@dpatil]), the best data scientists tend to be "hard scientists," particularly physicists, rather than computer science majors. Physicists have a strong mathematical background, computing skills, and come from a discipline in which survival depends on getting the most from the data. They have to think about the big picture, the big problem. When you've just spent a lot of grant money generating data, you can't just throw the data out if it isn't as clean as you'd like. You have to make it tell its story. You need some creativity for when the story the data is telling isn't what you think it's telling.
 
@@ -117,9 +115,7 @@ Data scientists combine entrepreneurship with patience, the willingness to build
 
 The future belongs to the companies who figure out how to collect and use data successfully. Google, Amazon, Facebook, and LinkedIn have all tapped into their datastreams and made that the core of their success. They were the vanguard, but newer companies like bit.ly are following their path. Whether it's mining your personal biology, building maps from the shared experience of millions of travellers, or studying the URLs that people pass to others, the next generation of successful businesses will be built around data. http://www.mckinseyquarterly.com/Hal_Varian_on_how_the_Web_challenges_managers_2286[The part of Hal Varian's quote that nobody remembers says it all]:
 
-----
-The ability to take data -- to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it -- that's going to be a hugely important skill in the next decades.
-----
+"The ability to take data -- to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it -- that's going to be a hugely important skill in the next decades."
 
 Data is indeed the new Intel Inside.
 
