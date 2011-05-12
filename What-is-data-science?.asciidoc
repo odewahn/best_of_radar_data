@@ -1,0 +1,3 @@
+We've all heard it: according to Hal Varian, http://www.nytimes.com/2009/08/06/technology/06stats.html[statistics is the next sexy job]. Five years ago, in What is Web 2.0, Tim O'Reilly said that "data is the next Intel Inside." But what does that statement mean? Why do we suddenly care about statistics and about data?
+
+In this post, I examine the many sides of data science -- the technologies, the companies and the unique skill sets.
