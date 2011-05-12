@@ -15,4 +15,4 @@ Google is a master at creating data products. Here's a few examples:
 * Speech recognition has always been a hard problem, and it remains difficult. But Google has made huge strides by using the voice data they've collected, and has been able to http://gdgt.com/discuss/voice-recognition-is-amazing-ive-only-68e/[integrate voice search] into their core search engine. 
 * During the Swine Flu epidemic of 2009, Google was able to track the progress of the epidemic http://www.google.org/flutrends/about/how.html[by following searches for flu-related topics].
 
-image:attachments/Flu Trends.png[scaledwidth=90%]
+image:attachments/FluTrends.png[scaledwidth=90%]
