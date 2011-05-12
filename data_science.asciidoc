@@ -107,6 +107,21 @@ Scientists also know how to break large problems up into smaller problems. Patil
 
 This is the heart of what Patil calls "data jiujitsu" -- using smaller auxiliary problems to solve a large, difficult problem that appears intractable. CDDB is a great example of data jiujitsu: identifying music by analyzing an audio stream directly is a very difficult problem (though not unsolvable -- see http://www.midomi.com/[midomi], for example). But the CDDB staff used data creatively to solve a much more tractable problem that gave them the same result. Computing a signature based on track lengths, and then looking up that signature in a database, is trivially simple.
 
+image:attachments/hiring_trends.png[scaledwidth=90%]
+
+_It's not easy to get a handle on jobs in data science. However, data from http://radar.oreilly.com/[O'Reilly Research] shows a steady year-over-year increase in Hadoop and Cassandra job listings, which are good proxies for the "data science" market as a whole. This graph shows the increase in Cassandra jobs, and the companies listing Cassandra positions, over time._
+
+Entrepreneurship is another piece of the puzzle. Patil's first flippant answer to "what kind of person are you looking for when you hire a data scientist?" was "someone you would start a company with." That's an important insight: we're entering the era of products that are built on data. We don't yet know what those products are, but we do know that the winners will be the people, and the companies, that find those products. Hilary Mason came to the same conclusion. Her job as scientist at bit.ly is really to investigate the data that bit.ly is generating, and find out how to build interesting products from it. No one in the nascent data industry is trying to build the 2012 Nissan Stanza or Office 2015; they're all trying to find new products. In addition to being physicists, mathematicians, programmers, and artists, they're entrepreneurs.
+
+Data scientists combine entrepreneurship with patience, the willingness to build data products incrementally, the ability to explore, and the ability to iterate over a solution. They are inherently interdiscplinary. They can tackle all aspects of a problem, from initial data collection and data conditioning to drawing conclusions. They can think outside the box to come up with new ways to view the problem, or to work with very broadly defined problems: "here's a lot of data, what can you make from it?"
+
+The future belongs to the companies who figure out how to collect and use data successfully. Google, Amazon, Facebook, and LinkedIn have all tapped into their datastreams and made that the core of their success. They were the vanguard, but newer companies like bit.ly are following their path. Whether it's mining your personal biology, building maps from the shared experience of millions of travellers, or studying the URLs that people pass to others, the next generation of successful businesses will be built around data. http://www.mckinseyquarterly.com/Hal_Varian_on_how_the_Web_challenges_managers_2286[The part of Hal Varian's quote that nobody remembers says it all]:
+
+----
+The ability to take data -- to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it -- that's going to be a hugely important skill in the next decades.
+----
+
+Data is indeed the new Intel Inside.
 
 ^1^ The NASA article denies this, but also says that in 1984, they decided that the low values (whch went back to the 70s) were "real." Whether humans or software decided to ignore anomalous data, it appears that data was ignored.
 
