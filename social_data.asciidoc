@@ -1,0 +1,41 @@
+We're still in the stage where access to massive amounts of social data has novelty. That's why companies are pumping out APIs and http://radar.oreilly.com/2011/02/google-data-explorer.html[services] http://aws.amazon.com/publicdatasets/[are]  http://www.needlebase.com/[popping] up to capture and sort all that information. But over time, as the novelty fades and the toolsets improve, we'll move into a new phase that's defined by the application of social data. Access will be implied. It's what you do with the data that will matter.
+
+Matthew Russell (http://twitter.com/#!/ptwobrussell[@ptwobrussell]), author of "http://oreilly.com/catalog/0636920010203/[Mining the Social Web]" and a speaker at the upcoming https://en.oreilly.com/where2011/public/regwith/whr11rad?cmp=il-radar-wh11-russell-social-data[Where 2.0 Conference], has already rounded that corner. In the following interview, Russell discusses the tools and the mindset that can unlock social data's real utility.
+
+=== How do you define the "social web"?
+
+*Matthew Russell:* The "social web" is admittedly a notional entity with some blurry boundaries. There isn't a Venn diagram that carves the "social web" out of the overall web fabric. The web is inherently a social fabric, and it's getting more social all the time.
+
+The distinction I make is that some parts of the fabric are much easier to access than others. Naturally, the platforms that expose their data with well-defined APIs will be the ones to receive the most attention and capture the mindshare when someone thinks of the "social web."
+
+In that regard, the social web is more of a heatmap where the hot areas are popular social networking hubs like Twitter, Facebook, and LinkedIn. Blogs, mailing lists, and even source code repositories such as Source Forge GitHub, however, are certainly part of the social web.
+
+=== What sorts of questions can social data answer?
+
+*Matthew Russell:* Here are some concrete examples of questions I asked — and answered — in "Mining the Social Web":
+
+* What's your potential influence when you tweet?
+
+* What does Justin Bieber have (or not have) in common with the Tea Party?
+
+* Where does most of your professional network geographically reside, and how might this impact career decisions?
+
+* How do you summarize the content of blog posts to quickly get the gist?
+
+* Which of your friends on Twitter, Facebook, or elsewhere know one another, and how well?
+
+It's not hard at all to ask lots of valuable questions against social web data and answer them with high degrees of certainty. The most popular sources of social data are popular because they're generally platforms that expose the data through well-crafted APIs. The effect is that it's fairly easy to amass the data that you need to answer questions.
+
+With the necessary data in hand to answer your questions, the selection of a programming language, toolkit, and/or framework that makes shaking out the answer is a critical step that shouldn't be taken lightly. The more efficient it is to test your hypotheses, the more time you can spend analyzing your data. Spending sufficient time in analysis engenders the kind of creative freedom needed to produce truly interesting results. This why organizations like http://www.infochimps.com/[Infochimps] and http://gnip.com/[GNIP] are filling a critical void.
+
+=== What programming skills or development background do you need to effectively analyze social data?
+
+*Matthew Russell:* A basic programming background definitely helps, because it allows you to automate so many of the mundane tasks that are involved in getting the data and munging it into a normalized form that's easy to work with. That said, the lack of a programming background should be among the last things that stops you from diving head first into social data analysis. If you're sufficiently motivated and analytical enough to ask interesting questions, there's a very good chance you can pick up an easy language, like Python or Ruby, and learn enough to be dangerous over a weekend. The rest will take care of itself.
+
+=== Why did you opt to use GitHub to share the example code from the book?
+
+*Matthew Russell:* GitHub is a fantastic source code management tool, but the most interesting thing about it is that it's a social coding repository. What GitHub allows you to do is share code in such a way that people can clone your code repository. They can make improvements or fork the examples into an entirely new form, and then share those changes with the rest of the world in a very transparent way.
+
+If you look at the project I https://github.com/ptwobrussell/Mining-the-Social-Web[started on GitHub], you can see exactly who did what with the code, whether I incorporated their changes back into my own repository, whether someone else has done something novel by using an example listing as a template, etc. You end up with a community of people that emerge around common causes, and amazing things start to happen as these people share and communicate about important problems and ways to solve them.
+
+While I of course want people buy the book, all of the source code is out there for the taking. I hope people put it to good use.
