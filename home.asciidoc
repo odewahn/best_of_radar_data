@@ -1,9 +1,5 @@
 = Best of O'Reilly Radar: Data Science
 
-== Data science democratized
-
-[[democratize]]
-
 == What is data science?
 
 [[data_science]]
@@ -11,6 +7,10 @@
 == Six months after "What is data science?"
 
 [[6_months_after]]
+
+== Data science democratized
+
+[[democratize]]
 
 == The SMAQ stack for big data
 
