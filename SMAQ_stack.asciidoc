@@ -4,7 +4,7 @@ To meet the challenge of processing such large data sets, Google created MapRedu
 
 As MapReduce has grown in popularity, a stack for big data systems has emerged, comprising layers of Storage, MapReduce and Query (SMAQ). SMAQ systems are typically open source, distributed, and run on commodity hardware.
 
-image:attachments/Query.png[scaledwidth=90%]
+image:attachments/smaqoverview.png[scaledwidth=90%]
 
 In the same way the commodity http://en.wikipedia.org/wiki/LAMP_(software_bundle)[LAMP] stack of Linux, Apache, MySQL and PHP changed the landscape of web applications, SMAQ systems are bringing commodity big data processing to a broad audience. SMAQ systems underpin http://strataconf.com/strata-may2011[a new era of innovative data-driven products and services], in the same way that LAMP was a critical enabler for http://oreilly.com/web2/archive/what-is-web-20.html[Web 2.0].
 
@@ -14,11 +14,11 @@ Though dominated by Hadoop-based architectures, SMAQ encompasses a variety of sy
 
 http://labs.google.com/papers/mapreduce.html[Created at Google] in response to the problem of creating web search indexes, the MapReduce framework is the powerhouse behind most of today's big data processing. The key innovation of MapReduce is the ability to take a query over a data set, divide it, and run it in parallel over many nodes. This distribution solves the issue of data too large to fit onto a single machine.
 
-image:attachments/key_features.png[scaledwidth=90%]
+image:attachments/smaqmr.png[scaledwidth=90%]
 
 To understand how MapReduce works, look at the two phases suggested by its name. In the map phase, input data is processed, item by item, and transformed into an intermediate data set. In the reduce phase, these intermediate results are reduced to a summarized data set, which is the desired end result.
 
-image:attachments/map_reduce.png[scaledwidth=90%]
+image:attachments/mrexample.png[scaledwidth=90%]
 
 A http://en.wikipedia.org/wiki/MapReduce#Example[simple example] of MapReduce is the task of counting the number of unique words in a document. In the map phase, each word is identified and given the count of 1. In the reduce phase, the counts are added together for each word.
 
