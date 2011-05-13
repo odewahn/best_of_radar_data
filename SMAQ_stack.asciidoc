@@ -59,8 +59,8 @@ public static class Map
 		String line = value.toString();
 		StringTokenizer tokenizer = new StringTokenizer(line);
 		while (tokenizer.hasMoreTokens()) {
-			*word.set(tokenizer.nextToken());
-			context.write(word, one);*
+			*word.set(tokenizer.nextToken());*
+*			context.write(word, one);*
 		}
 	}
 }
@@ -210,9 +210,9 @@ Below is shown the word-count example in Pig, including both the data loading an
 
 ----
 input = LOAD 'input/sentences.txt' USING TextLoader();
-*words = FOREACH input GENERATE FLATTEN(TOKENIZE($0));
-grouped = GROUP words BY $0;
-counts = FOREACH grouped GENERATE group, COUNT(words);*
+*words = FOREACH input GENERATE FLATTEN(TOKENIZE());*
+*grouped = GROUP words BY ;*
+*counts = FOREACH grouped GENERATE group, COUNT(words);*
 ordered = ORDER counts BY $0;
 STORE ordered INTO 'output/wordCount' USING PigStorage();
 ----
