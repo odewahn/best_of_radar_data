@@ -38,7 +38,7 @@ Many SMAQ systems have features designed to simplify the operation of each of th
 
 === Hadoop MapReduce
 
-Hadoop is the dominant open source MapReduce implementation. Funded by Yahoo, it emerged in 2006 and, http://research.yahoo.com/files/cutting.pdf[according to its creator Doug Cutting, reached “web scale” capability in early 2008.
+Hadoop is the dominant open source MapReduce implementation. Funded by Yahoo, it emerged in 2006 and, http://research.yahoo.com/files/cutting.pdf[according to its creator Doug Cutting], reached “web scale” capability in early 2008.
 
 The Hadoop project is now hosted by Apache. It has grown into a large endeavor, with http://hadoop.apache.org/#What+Is+Hadoop%3F[multiple subprojects] that together comprise a full SMAQ stack.
 
