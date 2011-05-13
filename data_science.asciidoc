@@ -14,6 +14,7 @@ Google is a master at creating data products. Here's a few examples:
 * Speech recognition has always been a hard problem, and it remains difficult. But Google has made huge strides by using the voice data they've collected, and has been able to http://gdgt.com/discuss/voice-recognition-is-amazing-ive-only-68e/[integrate voice search] into their core search engine. 
 * During the Swine Flu epidemic of 2009, Google was able to track the progress of the epidemic http://www.google.org/flutrends/about/how.html[by following searches for flu-related topics].
 
+
 .Google was able to spot trends in the Swine Flu epidemic roughly two weeks before the Center for Disease Control by analyzing searches that people were making in different regions of the country..
 image:attachments/FluTrends.png[scaledwidth=90%]
 
@@ -33,8 +34,8 @@ Data is everywhere: your government, your web server, your business partners, ht
 
 Much of the data we currently work with is the direct consequence of Web 2.0, and of Moore's Law applied to data. The web has people spending more time online, and leaving a trail of data wherever they go. Mobile applications leave an even richer data trail, since many of them are annotated with geolocation, or involve video or audio, all of which can be mined. Point-of-sale devices and frequent-shopper's cards make it possible to capture all of your retail transactions, not just the ones you make online. All of this data would be useless if we couldn't store it, and that's where Moore's Law comes in. Since the early '80s, processor speed has increased from http://en.wikipedia.org/wiki/Motorola_68000[10 MHz] to 3.6 GHz -- an increase of 360 (not counting increases in word length and number of cores). But we've seen much bigger increases in storage capacity, on every level. RAM has moved from $1,000/MB to roughly $25/GB -- a price reduction of about 40000, to say nothing of the reduction in size and increase in speed. Hitachi made the http://news.cnet.com/2300-1010_3-6031405-6.html[first gigabyte disk drives] in 1982, weighing in at roughly 250 pounds; now terabyte drives are consumer equipment, and a 32 GB microSD card weighs about half a gram. Whether you look at bits per gram, bits per dollar, or raw capacity, storage has more than kept pace with the increase of CPU speed.
 
-.One of the first commercial disk drives from IBM. It has a 5 MB capacity and it's stored in a cabinet roughly the size of a luxury refrigerator. In contrast, a 32 GB microSD card measures around 5/8 x 3/8 inch and weighs about 0.5 gram.
-Photo: Mike Loukides. Disk drive on display at http://www.almaden.ibm.com/[IBM Almaden Research].
+
+.One of the first commercial disk drives from IBM. It has a 5 MB capacity and it's stored in a cabinet roughly the size of a luxury refrigerator. In contrast, a 32 GB microSD card measures around 5/8 x 3/8 inch and weighs about 0.5 gram. Photo: Mike Loukides. Disk drive on display at http://www.almaden.ibm.com/[IBM Almaden Research].
 image:attachments/datascience_drive.png[scaledwidth=90%]
 
 The importance of Moore's law as applied to data isn't just geek pyrotechnics. Data expands to fill the space you have to store it. The more storage is available, the more data you will find to put into it. The data exhaust you leave behind whenever you surf the web, friend someone on Facebook, or make a purchase in your local supermarket, is all carefully collected and analyzed. Increased storage capacity demands increased sophistication in the analysis and use of that data. That's the foundation of data science.
