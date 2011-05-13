@@ -19,3 +19,7 @@
 == Big data: Global good or zero-sum arms race?
 
 [[big_data]]
+
+== Social data is an oracle waiting for a question
+
+[[social_data]]
