@@ -14,8 +14,9 @@ Google is a master at creating data products. Here's a few examples:
 * Speech recognition has always been a hard problem, and it remains difficult. But Google has made huge strides by using the voice data they've collected, and has been able to http://gdgt.com/discuss/voice-recognition-is-amazing-ive-only-68e/[integrate voice search] into their core search engine. 
 * During the Swine Flu epidemic of 2009, Google was able to track the progress of the epidemic http://www.google.org/flutrends/about/how.html[by following searches for flu-related topics].
 
-.Google was able to spot trends in the Swine Flu epidemic roughly two weeks before the Center for Disease Control by analyzing searches that people were making in different regions of the country..
 image:attachments/FluTrends.png[scaledwidth=90%]
+
+_Google was able to spot trends in the Swine Flu epidemic roughly two weeks before the Center for Disease Control by analyzing searches that people were making in different regions of the country._
 
 Google isn't the only company that knows how to use data. http://www.facebook.com/[Facebook] and http://www.linkedin.com/[LinkedIn] use patterns of friendship relationships to suggest other people you may know, or should know, with sometimes frightening accuracy. http://www.amazon.com/[Amazon] saves your searches, correlates what you search for with what other users search for, and uses it to create surprisingly appropriate recommendations. These recommendations are "data products" that help to drive Amazon's more traditional retail business. They come about because Amazon understands that a book isn't just a book, a camera isn't just a camera, and a customer isn't just a customer; customers generate a trail of "data exhaust" that can be mined and put to use, and a camera is a cloud of data that can be correlated with the customers' behavior, the data they leave every time they visit the site.
 
