@@ -123,8 +123,6 @@ Data is indeed the new Intel Inside.
 
 === References
 
-* The NASA article denies this, but also says that in 1984, they decided that the low values (whch went back to the 70s) were "real." Whether humans or software decided to ignore anomalous data, it appears that data was ignored.
-
+* The NASA article denies this, but also says that in 1984, they decided that the low values (which went back to the 70s) were "real." Whether humans or software decided to ignore anomalous data, it appears that data was ignored.
 * "Information Platforms as Dataspaces," by Jeff Hammerbacher (in http://oreilly.com/catalog/9780596157128/[Beautiful Data])
-
 * "Information Platforms as Dataspaces," by Jeff Hammerbacher (in http://oreilly.com/catalog/9780596157128/[Beautiful Data])
