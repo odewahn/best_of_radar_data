@@ -10,11 +10,11 @@ During that demo, Datameer CTO http://www.datameer.com/about/management.html[Ste
 
 Here's the #justinbieber cluster:
 
-image:attachments/justinbieber-graph.png[scaledwidth=90%]
+image::attachments/justinbieber-graph.png[scaledwidth=90%]
 
 And here's the #teaparty cluster:
 
-image:attachments/teaparty-graph.png[scaledwidth=90%]
+image::attachments/teaparty-graph.png[scaledwidth=90%]
 
 
 As you can see, the #teaparty folks are far more connected then their distant #justinbieber cousins. That's interesting, but not really surprising. The political world has more connective tissue than of-the-moment entertainment.
