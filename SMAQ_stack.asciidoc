@@ -4,7 +4,7 @@ To meet the challenge of processing such large data sets, Google created MapRedu
 
 As MapReduce has grown in popularity, a stack for big data systems has emerged, comprising layers of Storage, MapReduce and Query (SMAQ). SMAQ systems are typically open source, distributed, and run on commodity hardware.
 
-image::attachments/smaqoverview.png[scaledwidth=90%]
+image::attachments/smaqoverview.png[scaledwidth="90%"]
 
 In the same way the commodity http://en.wikipedia.org/wiki/LAMP_(software_bundle)[LAMP] stack of Linux, Apache, MySQL and PHP changed the landscape of web applications, SMAQ systems are bringing commodity big data processing to a broad audience. SMAQ systems underpin http://strataconf.com/strata-may2011[a new era of innovative data-driven products and services], in the same way that LAMP was a critical enabler for http://oreilly.com/web2/archive/what-is-web-20.html[Web 2.0].
 
@@ -14,11 +14,11 @@ Though dominated by Hadoop-based architectures, SMAQ encompasses a variety of sy
 
 http://labs.google.com/papers/mapreduce.html[Created at Google] in response to the problem of creating web search indexes, the MapReduce framework is the powerhouse behind most of today's big data processing. The key innovation of MapReduce is the ability to take a query over a data set, divide it, and run it in parallel over many nodes. This distribution solves the issue of data too large to fit onto a single machine.
 
-image::attachments/smaqmr.png[scaledwidth=90%]
+image::attachments/smaqmr.png[scaledwidth="90%"]
 
 To understand how MapReduce works, look at the two phases suggested by its name. In the map phase, input data is processed, item by item, and transformed into an intermediate data set. In the reduce phase, these intermediate results are reduced to a summarized data set, which is the desired end result.
 
-image::attachments/mrexample.png[scaledwidth=90%]
+image::attachments/mrexample.png[scaledwidth="90%"]
 
 A http://en.wikipedia.org/wiki/MapReduce#Example[simple example] of MapReduce is the task of counting the number of unique words in a document. In the map phase, each word is identified and given the count of 1. In the reduce phase, the counts are added together for each word.
 
@@ -101,7 +101,7 @@ MapReduce has been implemented in a variety of other programming languages and s
 
 MapReduce requires storage from which to fetch data and in which to store the results of the computation. The data expected by MapReduce is not relational data, as used by conventional databases. Instead, data is consumed in chunks, which are then divided among nodes and fed to the map phase as key-value pairs. This data does not require a schema, and may be unstructured. However, the data must be available in a distributed fashion, to serve each processing node.
 
-image::attachments/smaqstorage.png[scaledwidth=90%]
+image::attachments/smaqstorage.png[scaledwidth="90%"]
 
 The design and features of the storage layer are important not just because of the interface with MapReduce, but also because they affect the ease with which data can be loaded and the results of computation extracted and searched.
 
@@ -122,7 +122,7 @@ HDFS provides an interface similar to that of regular filesystems. Unlike a data
 
 One approach to making HDFS more usable is HBase. Modeled after Google's http://labs.google.com/papers/bigtable.html[BigTable database], http://hbase.apache.org/[HBase] is a column-oriented database designed to store massive amounts of data. It belongs to the NoSQL universe of databases, and is similar to Cassandra and Hypertable.
 
-image::attachments/storagehbase.png[scaledwidth=90%]
+image::attachments/storagehbase.png[scaledwidth="90%"]
 
 HBase uses HDFS as a storage system, and thus is capable of storing a large volume of data through fault-tolerant, distributed nodes. Like similar column-store databases, HBase provides http://en.wikipedia.org/wiki/Representational_State_Transfer[REST] and http://thrift.apache.org/[Thrift] based API access.
 
@@ -138,7 +138,7 @@ http://cassandra.apache.org/[Cassandra] and http://hypertable.org/[Hypertable] a
 
 An Apache project, Cassandra originated at Facebook and is now in production in many large-scale websites, including Twitter, Facebook, Reddit and Digg. Hypertable was created at http://www.zvents.com/z/belmont-ma[Zvents] and spun out as an open source project.
 
-image::attachments/storagecassandra.png[scaledwidth=90%]
+image::attachments/storagecassandra.png[scaledwidth="90%"]
 
 Both databases offer interfaces to the Hadoop API that allow them to act as a source and a sink for MapReduce. At a higher level, Cassandra offers http://wiki.apache.org/cassandra/HadoopSupport[integration with the Pig query language] (see the Query section below), and Hypertable has been http://code.google.com/p/hypertable/wiki/HiveExtension[integrated with Hive].
 
@@ -196,7 +196,7 @@ Although creating a Hadoop-based system can be done entirely with open source, i
 
 Specifying MapReduce jobs in terms of defining distinct map and reduce functions in a programming language is unintuitive and inconvenient, as is evident from the Java code listings shown above. To mitigate this, SMAQ systems incorporate a higher-level query layer to simplify both the specification of the MapReduce operations and the retrieval of the result.
 
-image::attachments/smaqquery.png[scaledwidth=90%]
+image::attachments/smaqquery.png[scaledwidth="90%"]
 
 Many organizations using Hadoop will have already written in-house layers on top of the MapReduce API to make its operation more convenient. Several of these have emerged either as open source projects or commercial products.
 
