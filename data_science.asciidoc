@@ -120,9 +120,3 @@ The future belongs to the companies who figure out how to collect and use data s
 "The ability to take data -- to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it -- that's going to be a hugely important skill in the next decades."
 
 Data is indeed the new Intel Inside.
-
-=== References
-
-* The NASA article denies this, but also says that in 1984, they decided that the low values (which went back to the 70s) were "real." Whether humans or software decided to ignore anomalous data, it appears that data was ignored.
-* "Information Platforms as Dataspaces," by Jeff Hammerbacher (in http://oreilly.com/catalog/9780596157128/[Beautiful Data])
-* "Information Platforms as Dataspaces," by Jeff Hammerbacher (in http://oreilly.com/catalog/9780596157128/[Beautiful Data])
