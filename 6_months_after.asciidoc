@@ -1,6 +1,6 @@
-Mike Loukides examined the question "http://radar.oreilly.com/2010/06/what-is-data-science.html[What is data science?]" here on Radar six months ago.
+Mike Loukides examined the question "http://radar.oreilly.com/2010/06/what-is-data-science.html[What is data science?]" on Radar in June 2010.
 
-That post kicked off http://radar.oreilly.com/2010/06/what-is-data-science.html#comments[considerable] http://twitter.com/search?q=http%3A%2F%2Fradar.oreilly.com%2F2010%2F06%2Fwhat-is-data-science.html[conversation]. It also marked the beginning of our ongoing effort to track the companies, ideas, people and products shaping the data space.
+That article kicked off http://radar.oreilly.com/2010/06/what-is-data-science.html#comments[considerable] http://twitter.com/search?q=http%3A%2F%2Fradar.oreilly.com%2F2010%2F06%2Fwhat-is-data-science.html[conversation]. It also marked the beginning of our ongoing effort to track the companies, ideas, people and products shaping the data space.
 
 The six-month point is a good time to check in: it's short enough to still feel that initial enthusiasm and long enough to sense deeper trends. With that in mind, below you'll find a handful of interviews and analysis posts that expand on the topics Mike surfaced in his report.
 
