@@ -32,4 +32,4 @@ Norbert Weiner was concerned that automation-based productivity gains would disr
 
 As we enter the big data era of the information age and give up what's left of our privacy, I'd like to think that it will be for more than a zero-sum game of musical chairs to decide the next winners.
 
-*_For the purposes of this post, I'm treating the industrial age and the information age as two parts of one continuum._
+*_For the purposes of this article, I'm treating the industrial age and the information age as two parts of one continuum._
